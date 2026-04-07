@@ -1,0 +1,27 @@
+{
+  "name": "rewind-sdk",
+  "version": "1.1.0",
+  "description": "Add git-based version control to any Adobe Premiere Pro CEP extension",
+  "author": "Rewind contributors",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nzalexgarciagil-ctrl/rewind-sdk.git"
+  },
+  "scripts": {
+    "build": "node build.js",
+    "lint": "eslint core/ ui/ rewind.js build.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "premiere-pro",
+    "version-control",
+    "git",
+    "adobe",
+    "cep",
+    "rewind",
+    "sdk"
+  ]
+}

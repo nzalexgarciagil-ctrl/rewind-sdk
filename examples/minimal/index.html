@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Rewind Demo</title>
+    <!-- CSInterface.js is required by CEP. Copy it from Adobe's CEP SDK:
+         https://github.com/Adobe-CEP/CEP-Resources
+         Place CSInterface.js next to this file or update the path below. -->
+    <script src="CSInterface.js"></script>
+</head>
+<body style="margin:0; height:100vh; overflow:hidden;">
+
+    <!-- This div will contain the entire Rewind UI -->
+    <div id="rewind-panel" style="height:100%;"></div>
+
+    <!-- Include the Rewind SDK (single script tag!) -->
+    <script src="../../rewind.js"></script>
+
+    <script>
+        // That's it! Two lines to add full version control to your extension:
+        RewindSDK.init({ autoSaveInterval: 60 });
+        RewindSDK.mountUI('#rewind-panel');
+    </script>
+
+</body>
+</html>
