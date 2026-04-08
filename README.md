@@ -28,7 +28,7 @@ rewind.start().then(function() {
 
 ## Installation
 
-1. Copy the `sdk/` folder into your extension directory (rename it to `rewind-sdk/` if you like)
+1. Clone or download this repo and copy it into your extension directory as `rewind-sdk/`
 2. Point your manifest's `<ScriptPath>` to `rewind-sdk/host/rewind-host.jsx`
 3. Include `rewind-sdk/rewind.js` via a `<script>` tag in your `index.html`
 4. Make sure `CSInterface.js` is loaded before `rewind.js`
